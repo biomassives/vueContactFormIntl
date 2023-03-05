@@ -442,8 +442,8 @@ export default {
       if (this.$refs.form.validate()) {
         this.loading = true
         this.$axios
-          .$post('', 
-             this.nameSurname,
+          .$post('sandbox92a03c01b3cd48c38bc3f7dd93d0d9c4.mailgun.org', 
+            this.nameSurname,
             this.phone,
             this.email,
             this.selectedProducts,
